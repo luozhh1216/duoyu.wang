@@ -1,0 +1,130 @@
+:root {
+    --color-primary: #00744b;
+    --color-darken:  #343a40;
+    --color-light:   #f8f9fa;
+    --color-white:   #ffffff;
+    /* --- 辅助 --- */
+    --color-secondary: #6c757d;
+    --color-success:   #00744b;
+    --color-danger:    #dc3545;
+    --color-warning:   #ffc05d;
+    --color-info:      #448af1;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Colors */
+
+.text-primary {
+    color: var(--color-primary);
+}
+.text-darken {
+    color: var(--color-darken);
+}
+.text-light {
+    color: var(--color-light);
+}
+.text-white {
+    color: var(--color-white);
+}
+
+.text-secondary {
+    color: var(--color-secondary);
+}
+.text-success {
+    -olor: var(--color-success);
+}
+.text-danger {
+    color: var(--color-danger);
+}
+.text-warning {
+    color: var(--color-warning);
+}
+.text-info {
+    color: var(--color-info);
+}
+
+/* Background */
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+.bg-darken {
+    background-color: var(--color-darken);
+}
+.bg-light {
+    background-color: var(--color-light);
+}
+.bg-white {
+    background-color: var(--color-white);
+}
+
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+.bg-success {
+    background-color: var(--color-success);
+}
+.bg-danger {
+    background-color: var(--color-danger);
+}
+.bg-warning {
+    background-color: var(--color-warning);
+}
+.bg-info {
+    background-color: var(--color-info);
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.sidebar .name-logo {
+    width: 61.8%;
+}
+
+.sidebar-nav {
+    text-align: center;
+}
+
+.sidebar-nav ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+/* Card */
+
+.card {
+    position: relative;
+    border-radius: .4rem;
+}
+
+.card-header {
+    padding: 1rem;
+    border-bottom: solid .025rem white;
+}
+
+.card-color {
+    overflow: hidden;
+}
+
+.color-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-row .color-column {
+    flex: 1;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.color-alpha-9 {
+    background-color: rgba(255, 255, 255, .9);
+    padding: 1rem;
+    margin: 1rem -1rem -1rem;
+    color: var(--color-darken);
+}
