@@ -15,6 +15,7 @@
     text-transform: uppercase;
 }
 
+
 /* Colors */
 
 .text-primary {
@@ -45,6 +46,7 @@
 .text-info {
     color: var(--color-info);
 }
+
 
 /* Background */
 
@@ -81,6 +83,8 @@
     margin-top: 1rem;
 }
 
+
+/* Sidebar */
 .sidebar .name-logo {
     width: 61.8%;
 }
