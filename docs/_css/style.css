@@ -89,6 +89,15 @@
     width: 61.8%;
 }
 
+.sidebar-nav {
+    text-align: center;
+}
+
+.sidebar-nav ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
 
 /* Card */
 
