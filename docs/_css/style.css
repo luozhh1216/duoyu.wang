@@ -98,6 +98,10 @@
     padding-left: 0;
 }
 
+.sidebar ul li.active > a {
+    border-right: none;
+}
+
 
 /* Card */
 
