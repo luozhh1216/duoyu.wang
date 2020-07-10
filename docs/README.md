@@ -4,6 +4,23 @@
 
 ## 颜色
 
+### LOGO VI 原色
+
+<div class="card card-color">
+    <div class="card-content">
+        <div class="color-row">
+            <div class="color-column bg-success text-white">
+                <small>主要，背景、文字</small><br> #00744b
+                <div class="color-alpha-9">Alpha：9%</div>
+            </div>
+            <div class="color-column bg-darken text-white">
+                <small>深色，文字</small><br> #231815
+                <div class="color-alpha-9">Alpha：9%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
 ### UI
 
 <div class="card card-color">
@@ -18,15 +35,15 @@
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
             <div class="color-column bg-warning text-white">
-                <small>辅助，Warning</small><br> #ffc107
+                <small>辅助，Warning</small><br> #febf66
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
             <div class="color-column bg-danger text-white">
-                <small>辅助，Danger</small><br> #dc3545
+                <small>辅助，Danger</small><br> #da3849
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
             <div class="color-column bg-info text-white">
-                <small>辅助，Info</small><br> #448af1
+                <small>辅助，Info</small><br> #488dee
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
             <div class="color-column bg-light">
@@ -37,82 +54,49 @@
                 <small>深色，Secondary</small><br> #6c757d
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
-            <div class="color-column bg-darken text-white">
-                <small>深色，文字</small><br> #343a40
+            <div class="color-column bg-dark text-white">
+                <small>深色，背景</small><br> #343a40
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="card card-color mt-1">
+##### 应用场景
+
+<div class="card card-color">
     <div class="card-content">
         <div class="color-row">
             <div class="color-column bg-success text-white">
-                <small>Alpha：100%</small><br> #00744b
+                <small>Alpha：100%，background-color、border-color、text-color</small><br> #00744b
+                <div class="color-alpha-9"><small>background-color</small><br>Alpha：9%</div>
             </div>
-            <div class="color-column text-white" style="background-color: rgba(0,116,75,0.7)">
-                <small>Alpha：70%</small><br> #559d82
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(0,116,75,0.5)">
-                <small>Alpha：50%</small><br> #86b9a5
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(0,116,75,0.3)">
-                <small>Alpha：30%</small><br> #b6d5c9
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(0,116,75,0.09)">
-                <small>Alpha：9%</small><br> #e9f2ef
-            </div>
-        </div>
-        <div class="color-row">
             <div class="color-column bg-warning text-white">
-                <small>Alpha：100%</small><br> #da3849
+                <small>Alpha：100%，background-color、border-color、text-color</small><br> #febf66
+                <div class="color-alpha-9"><small>background-color</small><br>Alpha：9%</div>
             </div>
-            <div class="color-column text-darken" style="background-color: rgba(255,193,7,0.7)">
-                <small>Alpha：70%</small><br> #fed36d
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(255,193,7,0.5)">
-                <small>Alpha：50%</small><br> #fedf97
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(255,193,7,0.3)">
-                <small>Alpha：30%</small><br> #ffecc0
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(255,193,7,0.09)">
-                <small>Alpha：9%</small><br> #fff9ec
-            </div>
-        </div>
-        <div class="color-row">
             <div class="color-column bg-danger text-white">
-                <small>Alpha：100%</small><br> #da3849
+                <small>Alpha：100%，background-color、border-color、text-color</small><br> #da3849
+                <div class="color-alpha-9"><small>background-color</small><br>Alpha：9%</div>
             </div>
-            <div class="color-column text-darken" style="background-color: rgba(220,53,69,0.7)">
-                <small>Alpha：70%</small><br> #e5737f
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(220,53,69,0.5)">
-                <small>Alpha：50%</small><br> #ec9ba4
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(220,53,69,0.3)">
-                <small>Alpha：30%</small><br> #f4c3c8
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(220,53,69,0.09)">
-                <small>Alpha：9%</small><br> #fcedef
+            <div class="color-column bg-info text-white">
+                <small>Alpha：100%，background-color、border-color、text-color</small><br> #488dee
+                <div class="color-alpha-9"><small>background-color</small><br>Alpha：9%</div>
             </div>
         </div>
+    </div>
+</div>
+
+##### 边框
+
+<div class="card card-color">
+    <div class="card-content">
         <div class="color-row">
-            <div class="color-column bg-info text-white">
-                <small>Alpha：100%</small><br> #488dee
+            <div class="color-column border-color-dark mr-1">
+                <small>border-color 深色</small><br> #00744b
             </div>
-            <div class="color-column text-white" style="background-color: rgba(68,138,241,0.7)">
-                <small>Alpha：70%</small><br> #7faff3
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(68,138,241,0.5)">
-                <small>Alpha：50%</small><br> #a3c6f6
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(68,138,241,0.3)">
-                <small>Alpha：30%</small><br> #c8dcfa
-            </div>
-            <div class="color-column text-darken" style="background-color: rgba(68,138,241,0.09)">
-                <small>Alpha：9%</small><br> #eff5fd
+            <div class="color-column border-color-light ml-1">
+                <small>border-color 浅色</small><br> #da3849
             </div>
         </div>
     </div>
@@ -164,16 +148,14 @@
 <h5>H5 - <small class="text-secondary">1rem</small></h5>
 <p>正文 - <small class="text-secondary">15px</small></p>
 
-## ICONS
+## 布局
 
-``` css
-@font-face {
-  font-family: 'iconfont';  /* project id 759689 */
-  src: url('//at.alicdn.com/t/font_759689_l7t45o4ff.eot');
-  src: url('//at.alicdn.com/t/font_759689_l7t45o4ff.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_759689_l7t45o4ff.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_759689_l7t45o4ff.woff') format('woff'),
-  url('//at.alicdn.com/t/font_759689_l7t45o4ff.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_759689_l7t45o4ff.svg#iconfont') format('svg');
-}
-```
+### 间距
+
+> 内边距（padding）、外边距（margin）在应用系统中
+
+**通用 24 像素：`margin: 24px`、`padding: 24px`**
+
++ 小间距，如按钮组内与按钮与按钮左右间距 12 像素
++ 大间距，不常用到的，设定为 36 像素
+

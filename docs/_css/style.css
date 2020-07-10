@@ -1,8 +1,9 @@
 :root {
-    --color-primary: #00744b;
-    --color-darken:  #343a40;
-    --color-light:   #f8f9fa;
-    --color-white:   #ffffff;
+    --color-primary:   #00744b;
+    --color-darken:    #231815;
+    --color-dark:      #343a40;
+    --color-light:     #f8f9fa;
+    --color-white:     #ffffff;
     /* --- 辅助 --- */
     --color-secondary: #6c757d;
     --color-success:   #00744b;
@@ -56,6 +57,9 @@
 .bg-darken {
     background-color: var(--color-darken);
 }
+.bg-dark {
+    background-color: var(--color-dark);
+}
 .bg-light {
     background-color: var(--color-light);
 }
@@ -79,8 +83,26 @@
     background-color: var(--color-info);
 }
 
+/* Border */
+.border-color-dark {
+    border: solid 1px #d3d5d8;
+}
+.border-color-light {
+    border: solid 1px #f2f2f3;
+}
+
+/* Margin */
 .mt-1 {
     margin-top: 1rem;
+}
+.mr-1 {
+    margin-right: 1rem;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.ml-1 {
+    margin-left: 1rem;
 }
 
 
