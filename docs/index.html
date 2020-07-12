@@ -15,9 +15,20 @@
     window.$docsify = {
       logo: './_media/images/logo-full.svg class=name-logo',
       name: 'PSBC UI DESIGN',
-      repo: ''
+      repo: '',
+      loadSidebar: true,
+      auto2top: true,
+      search: {
+                paths: [
+                    '/'
+                ],
+                placeholder: '搜索',
+                noData: '找不到结果！',
+                depth: 6
+            }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
