@@ -1,6 +1,6 @@
 # 颜色
 
-## LOGO VI 原色
+### LOGO VI 原色
 
 <div class="card card-color">
     <div class="card-content">
@@ -17,7 +17,7 @@
     </div>
 </div>
 
-## UI
+### UI
 
 <div class="card card-color">
     <div class="card-header bg-primary text-white">
@@ -83,7 +83,7 @@
     </div>
 </div>
 
-## Chart
+### CHART
 
 <div class="card card-color">
     <div class="card-content">
@@ -118,18 +118,4 @@
     </div>
 </div>
 
-
-## 边框
-
-<div class="card card-color">
-    <div class="card-content">
-        <div class="color-row">
-            <div class="color-column border-color-dark mr-1">
-                <small>border-color 深色</small><br> #00744b
-            </div>
-            <div class="color-column border-color-light ml-1">
-                <small>border-color 浅色</small><br> #da3849
-            </div>
-        </div>
-    </div>
-</div>
+### ALERTS

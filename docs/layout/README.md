@@ -1,7 +1,5 @@
 # 布局
 
-## 大数据管理门户
-
 ### 内容 BODY
 
 + 背景浅色：`background-color: #f8f9fa;`

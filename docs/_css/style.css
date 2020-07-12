@@ -90,6 +90,9 @@
 .border-color-light {
     border: solid 1px #f2f2f3;
 }
+.border-rounded {
+    border-radius: 5px;
+}
 
 /* Margin */
 .mt-1 {
@@ -131,7 +134,16 @@
     padding-left: 1.5rem;
 }
 
-
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    margin: -1rem;
+}
+.columns .column {
+    flex: 1 1 auto;
+    padding: 1rem;
+}
 
 
 /* Card */
