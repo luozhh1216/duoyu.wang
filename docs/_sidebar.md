@@ -1,5 +1,6 @@
 * [基础](/)
 * [颜色](color/)
+  * [LOGO VI 原色](color/#logo-vi-原色)
   * [UI](color/#ui)
   * [CHART](color/#chart)
   * [ALERTS](color/#alerts)

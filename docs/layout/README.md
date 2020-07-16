@@ -16,7 +16,7 @@
 ### 顶部
 
 + 高度 60 像素：`height:60px;`
-+ 内边距 15 像素：`padding-top: 15px; padding-bottom: 15px;`
++ 上下内边距 15 像素：`padding-top: 15px; padding-bottom: 15px;`
 + 背景白色：`background-color: white;`
 
 ### 菜单

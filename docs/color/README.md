@@ -9,7 +9,7 @@
                 <small>主要，背景、文字</small><br> #00744b
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
-            <div class="color-column bg-darken text-white">
+            <div class="color-column bg-darker text-white">
                 <small>深色，文字</small><br> #231815
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
@@ -105,7 +105,7 @@
             <div class="color-column text-white" style="background-color:#f1c40f">#f1c40f</div>
             <div class="color-column text-white" style="background-color:#e67e22">#e67e22</div>
             <div class="color-column text-white" style="background-color:#e74c3c">#e74c3c</div>
-            <div class="color-column text-darken" style="background-color:#ecf0f1">#ecf0f1</div>
+            <div class="color-column text-darker" style="background-color:#ecf0f1">#ecf0f1</div>
             <div class="color-column text-white" style="background-color:#95a5a6">#95a5a6</div>
         </div>
         <div class="color-row">
@@ -119,3 +119,11 @@
 </div>
 
 ### ALERTS
+
+> border 透明度 50%，background 透明度 9%
+
+<div class="alert alert-primary mb-1">常用的提示信息！</div>
+<div class="alert alert-info mb-1">通知类的提示信息！</div>
+<div class="alert alert-warning mb-1">警告的提示信息！</div>
+<div class="alert alert-danger mb-1">错误的提示信息！</div>
+<div class="alert alert-secondary mb-1">其他类的提示信息！</div>

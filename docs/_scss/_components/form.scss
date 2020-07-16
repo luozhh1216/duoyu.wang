@@ -1,0 +1,25 @@
+// form
+.input {
+    height: $input-height;
+    border: solid 1px rgba($color: $color-secondary, $alpha: .25);
+    border-radius: $border-radius;
+    padding: 0 10px;
+    outline: none;
+    &:disabled {
+        opacity: .5;
+        cursor: no-drop;
+    }
+    &:not(:disabled):focus {
+        border-color: $color-primary;
+        box-shadow: 0 0 0 2px rgba($color: $color-primary, $alpha: 0.15);
+    }
+}
+@each $color, $value in $theme-colors {
+    .input-#{$color} {
+        border-color: $value;
+        &:not(:disabled):focus {
+            border-color: $value;
+            box-shadow: 0 0 0 2px rgba($color: $value, $alpha: 0.15);
+        }
+    }
+}
