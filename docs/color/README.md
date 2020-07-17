@@ -117,13 +117,3 @@
         </div>
     </div>
 </div>
-
-### ALERTS
-
-> border 透明度 50%，background 透明度 9%
-
-<div class="alert alert-primary mb-1">常用的提示信息！</div>
-<div class="alert alert-info mb-1">通知类的提示信息！</div>
-<div class="alert alert-warning mb-1">警告的提示信息！</div>
-<div class="alert alert-danger mb-1">错误的提示信息！</div>
-<div class="alert alert-secondary mb-1">其他类的提示信息！</div>
