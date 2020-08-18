@@ -137,3 +137,25 @@ Disabled
 <label class="check-label">
     <input class="check" type="radio" name="radio-dis" value="2" disabled> 单选
 </label>
+
+
+### TABLE
+
+<table class="table">
+  <thead>
+  <tr>
+    <th><input class="check" type="checkbox"></th>
+    <th>Name</th>
+    <th>Genre</th>
+    <th>Release date</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><input class="check" type="checkbox"></td>
+    <td>The Shawshank Redemption</td>
+    <td>Crime, Drama</td>
+    <td>14 October 1994</td>
+  </tr>
+  </tbody>
+</table>

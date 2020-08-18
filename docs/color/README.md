@@ -5,7 +5,7 @@
 <div class="card card-color">
     <div class="card-content">
         <div class="color-row">
-            <div class="color-column bg-success text-white">
+            <div class="color-column bg-primary text-white">
                 <small>主要，背景、文字</small><br> #00744b
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
@@ -27,7 +27,7 @@
     <div class="card-content">
         <div class="color-row">
             <div class="color-column bg-success text-white">
-                <small>主要，Success</small><br> #00744b
+                <small>辅助，Success</small><br> #159c77
                 <div class="color-alpha-9">Alpha：9%</div>
             </div>
             <div class="color-column bg-warning text-white">
@@ -63,8 +63,12 @@
 <div class="card card-color">
     <div class="card-content">
         <div class="color-row">
-            <div class="color-column bg-success text-white">
+            <div class="color-column bg-primary text-white">
                 <small>Alpha：100%，background-color、border-color、text-color</small><br> #00744b
+                <div class="color-alpha-9"><small>background-color</small><br>Alpha：9%</div>
+            </div>
+            <div class="color-column bg-success text-white">
+                <small>Alpha：100%，background-color、border-color、text-color</small><br> #159c77
                 <div class="color-alpha-9"><small>background-color</small><br>Alpha：9%</div>
             </div>
             <div class="color-column bg-warning text-white">

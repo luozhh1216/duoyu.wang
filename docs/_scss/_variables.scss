@@ -7,7 +7,7 @@ $color-dark:      #343a40;
 $color-secondary: #6c757d;
 $color-light:     #f8f9fa;
 $color-white:     #ffffff;
-$color-success:   #00744b;
+$color-success:   #159c77;
 $color-danger:    #dc3545;
 $color-warning:   #ffc05d;
 $color-info:      #448af1;
@@ -18,6 +18,7 @@ $theme-colors: (
   "info":       $color-info,
   "warning":    $color-warning,
   "danger":     $color-danger,
+  "success":    $color-success,
   "light":      $color-light,
   "dark":       $color-dark
 ) !default;
